@@ -1,3 +1,106 @@
+.bg-home {
+    background-image: url(img/bg-1.svg), url(img/bg-2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center 500px, top;
+    background-size: auto, 100px;
+}
+
+.bg-home {
+    background-color: rgb(20, 20, 20);
+    color: rgb(20, 220, 120);
+}
+
+.subtitle {
+    color: rgb(220, 180, 20);
+}
+
+nav {
+    background-color: rgb(20, 220, 120);
+    color: rgb(20, 20, 20);
+}
+
+.bg-about {
+    background-color: rgb(20, 5, 20);
+    color: rgb(220, 180, 20);
+}
+
+.about-title {
+    color: rgb(20, 220, 120);
+}
+
+.bg-project {
+    background-color: rgb(5, 15, 20);
+    color: rgb(20, 220, 120);
+}
+
+.bg-portfolio {
+    background-color: rgb(20, 5, 20);
+    color: rgb(220, 180, 20);
+}
+
+.bg-team {
+    background-color: rgb(5, 15, 20);
+    color: rgb(20, 220, 120);
+}
+
+.text-clr {
+    color: rgb(220, 180, 20);
+}
+
+.text-clr h3 {
+    font-weight: bold;
+}
+
+.text-clr a {
+    color: rgb(145, 240, 145);
+}
+
+.text-clr a:hover {
+    opacity: 0.8;
+}
+
+.bg-contact {
+    background-color: rgb(20, 20, 20);
+    color: rgb(220, 180, 20);
+}
+
+.clr-1 {
+    color: rgb(240, 130, 130);
+}
+
+.clr-2 {
+    color: rgb(135, 205, 250);
+}
+
+.clr-3 {
+    color: rgb(145, 240, 145);
+}
+
+.clr-4 {
+    color: rgb(20, 190, 220);
+}
+
+.text-form {
+    color: rgb(20, 220, 120);
+    letter-spacing: 1px;
+}
+
+.sub-btn {
+    background-color: rgb(20, 220, 120);
+    color: rgb(20, 20, 20);
+    transition: all 500ms;
+}
+
+.sub-btn:hover {
+    background-color: rgb(220, 180, 20);
+    color: rgb(20, 20, 20);
+}
+
+.bg-footer {
+    background-color: rgb(20, 5, 20);
+    color: rgb(20, 220, 120);
+}
+
 .fa-icon {
     display: inline-block;
     width: 50px;
@@ -6,8 +109,13 @@
     font-size: 40px;
     text-align: center;
     cursor: pointer;
+    color: rgb(220, 180, 20);
 }
 
 .fa-icon:hover {
     opacity: 0.8;
+}
+
+.cr {
+    color: rgb(145, 240, 145);
 }
